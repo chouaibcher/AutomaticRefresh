@@ -1,5 +1,5 @@
 
-**## Automatic Refresh for AADL3 Registration**
+**## Automatic Refresh for AADL3 **
 
 This script provides an alternative to browser extensions for automatically refreshing a webpage during the AADL3 registration process. Unlike extensions, this script stops refreshing once the page loads successfully, preventing unnecessary refreshes.
 
