@@ -1,5 +1,5 @@
 
-# Automatic Refresh for AADL3 
+# Automatic Refresh
 
 This script provides an alternative to browser extensions for automatically refreshing a webpage . Unlike extensions, this script stops refreshing once the page loads successfully, preventing unnecessary refreshes.
 
