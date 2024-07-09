@@ -19,7 +19,7 @@ This script provides an alternative to browser extensions for automatically refr
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/chouaibcher/aadl3.git
+git clone https://github.com/chouaibcher/AutomaticRefresh.git
 ```
 
 2. Install dependencies:
