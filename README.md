@@ -1,7 +1,7 @@
 
 # Automatic Refresh for AADL3 
 
-This script provides an alternative to browser extensions for automatically refreshing a webpage during the AADL3 registration process. Unlike extensions, this script stops refreshing once the page loads successfully, preventing unnecessary refreshes.
+This script provides an alternative to browser extensions for automatically refreshing a webpage . Unlike extensions, this script stops refreshing once the page loads successfully, preventing unnecessary refreshes.
 
 **Features:**
 
@@ -33,10 +33,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-**Contributing:**
-
-We welcome contributions to improve this script and make the AADL3 registration process even easier. Feel free to submit pull requests or report any issues on the GitHub repository.
 
 
 By CHERIBET CHERIF Chouaib
