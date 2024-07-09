@@ -10,6 +10,10 @@ from webdriver_manager.firefox import GeckoDriverManager
 import time
 import platform
 
+# change this 
+url = "https://chouaibcher.com"
+
+
 def play_alert_sound():
     if platform.system() == "Windows":
         import winsound
@@ -22,7 +26,6 @@ def play_alert_sound():
         else:
             os.system('aplay /usr/share/sounds/alsa/Front_Center.wav')  # Change the file path to an actual sound file if needed
 
-url = "https://aadl3inscription2024.dz"
 
 service = FirefoxService(GeckoDriverManager().install())
 driver = webdriver.Firefox(service=service)
