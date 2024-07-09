@@ -1,4 +1,3 @@
-Here's an improved version of your readme.md file with better grammar, phrasing, and structure:
 
 **## Automatic Refresh for AADL3 Registration**
 
@@ -34,10 +33,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-**How it Works:**
-
-(Here, you can provide a brief explanation of the script's functionality, like how it detects successful page load and plays an alert sound.)
 
 **Contributing:**
 
