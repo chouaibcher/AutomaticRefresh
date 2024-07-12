@@ -9,6 +9,11 @@ from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 import time
 import platform
+import time
+import random
+
+# Wait for a random time between 1 and 10 seconds before retrying
+sleep_time = random.randint(1, 10)
 
 # change this 
 url = "https://chouaibcher.com"
@@ -41,6 +46,7 @@ while True:
             print("Failed to load the page, retrying...")
     except Exception as e:
         print(f"Error: {e}")
-    time.sleep(5)  # Wait for 5 seconds before retrying
+    time.sleep(sleep_time)
+
 
 #driver.quit()
