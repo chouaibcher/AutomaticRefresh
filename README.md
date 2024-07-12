@@ -5,7 +5,7 @@ This script provides an alternative to browser extensions for automatically refr
 
 **Features:**
 
-* Automatic refresh every 5 seconds.
+* Wait for a random time between 1 and 10 seconds before retrying
 * Alert sound upon successful page load to notify you.
 * Stops refreshing automatically after successful page load.
 
